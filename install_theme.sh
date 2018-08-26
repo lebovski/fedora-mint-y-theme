@@ -36,6 +36,8 @@ cd /tmp/mint-y-theme/src
 
 echo "# Copy new themes"
 sudo cp -r /tmp/mint-y-theme/usr/share/themes/* /usr/share/themes/
+
+echo "# Clean up"
 rm -rf /tmp/mint-y-theme
 
 echo "########################    END      ###########################"
